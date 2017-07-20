@@ -1,6 +1,6 @@
-FROM node:7.9.0
+FROM node:8.1.4
 
-RUN npm i -g phantomjs@2.1.7
+RUN npm i -g phantomjs-prebuilt@2.1.14
 
 RUN mkdir /app
 WORKDIR /app
